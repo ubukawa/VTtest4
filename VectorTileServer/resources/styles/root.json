@@ -1,0 +1,21 @@
+{
+	"version": 8,
+	"sources": {
+		"esri": {
+			"type": "vector",
+			"url": "https://geoaccelerators.woolpert.dev/tileservices/hamilton_contours_50ft/VectorTileServer/"
+		}
+	},
+	"layers": [{
+		"source": "esri",
+		"source-layer": "hamilton_contours_50ft",
+		"minzoom": 0,
+		"layout": {},
+		"id": "hamilton_contours_50ft",
+		"type": "line",
+		"paint": {
+			"line-width": 1,
+			"line-color": "#B6432B"
+		}
+	}]
+}
